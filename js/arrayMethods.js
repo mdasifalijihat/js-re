@@ -4,11 +4,18 @@ const products = [
     {id: 3, name: "samsung", color: "white", price: 812000, brand: "samsung"}
 ]
 
+
+// filter 
+const newProducts = products.filter(product => product.price>10000)
+console.log(newProducts)
+
+// forEach
+
 // products.forEach(product => {
 //     console.log(product)
 // })
-products.forEach(product => {
-    if(product.color=== 'gold'){
-        console.log(product)
-    }
-})
+// products.forEach(product => {
+//     if(product.color=== 'gold'){
+//         console.log(product)
+//     }
+// })
