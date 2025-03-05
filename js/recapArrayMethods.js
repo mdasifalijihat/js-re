@@ -6,7 +6,10 @@ const products = [
     { id: 5, name: "Nokia", color: "red", price: 1000, brand: "samsung" },
 ]
 
-products.forEach(product => console.log(product))
+ const singleProduct = products.find(p => p.id ===3)
+ console.log(singleProduct); 
+
+// products.forEach(product => console.log(product))
 
 // const newProducts = products.map(p => {
 //     if(p.brand === "samsung"){
