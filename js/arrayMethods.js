@@ -6,7 +6,11 @@ const products = [
 
 
 // filter 
-const newProducts = products.filter(product => product.price>10000)
+// const newProducts = products.filter(product => product.price>10000)
+// console.log(newProducts)
+
+//find 
+const newProducts = products.find(product => product.id===3);
 console.log(newProducts)
 
 // forEach
