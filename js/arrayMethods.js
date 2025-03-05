@@ -4,3 +4,11 @@ const products = [
     {id: 3, name: "samsung", color: "white", price: 812000, brand: "samsung"}
 ]
 
+// products.forEach(product => {
+//     console.log(product)
+// })
+products.forEach(product => {
+    if(product.color=== 'gold'){
+        console.log(product)
+    }
+})
