@@ -6,11 +6,13 @@ const products = [
     { id: 5, name: "Nokia", color: "red", price: 1000, brand: "samsung" },
 ]
 
-const newProducts = products.map(p => {
-    if(p.brand === "samsung"){
-        p.price = p.price + 200;
-    }
-    return p;
-})
+products.forEach(product => console.log(product))
 
-console.log(newProducts)
+// const newProducts = products.map(p => {
+//     if(p.brand === "samsung"){
+//         p.price = p.price + 200;
+//     }
+//     return p;
+// })
+
+// console.log(newProducts)
