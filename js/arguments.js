@@ -14,9 +14,9 @@
 
 
 
-let name = "masud";
-function test(text){
-console.log(name)
-}
-test(name)
+// let name = "masud";
+// function test(text){
+// console.log(name)
+// }
+// test(name)
 
